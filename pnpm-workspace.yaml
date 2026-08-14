@@ -1,6 +1,8 @@
 packages:
   - .
 allowBuilds:
+  esbuild: true
+  "@tailwindcss/oxide": true
   vue-demi: true
 onlyBuiltDependencies:
   - esbuild

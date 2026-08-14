@@ -1,0 +1,30 @@
+{
+  "name": "word-count-pro",
+  "displayName": "字数统计增强",
+  "version": "0.1.0",
+  "publisher": "towriter",
+  "main": "main.js",
+  "engines": {
+    "towriter": "^0.1.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "wordCount.show",
+        "title": "显示当前字数",
+        "category": "统计"
+      },
+      {
+        "command": "wordCount.insertDate",
+        "title": "插入当前日期",
+        "category": "统计"
+      }
+    ],
+    "views": [
+      {
+        "id": "wordCount.panel",
+        "title": "写作统计"
+      }
+    ]
+  }
+}

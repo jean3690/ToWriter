@@ -1,0 +1,26 @@
+{
+  "name": "ToWriter 官方插件索引（示例）",
+  "description": "这是一个示例索引。把本文件放到你的 GitHub 仓库（如 repo 根目录或 docs/ 下），把 raw 地址粘贴到市场的「索引地址」框即可使用。",
+  "plugins": [
+    {
+      "name": "grammar-hint",
+      "displayName": "中文语法提示",
+      "version": "0.1.0",
+      "publisher": "towriter",
+      "description": "基于规则的常见中文语法与标点检查（重复标点、中英混用、冗余表达、错别字等）",
+      "repo": "YOUR_USERNAME/YOUR_PLUGIN_REPO",
+      "path": "plugins/grammar-hint",
+      "branch": "main"
+    },
+    {
+      "name": "word-count-pro",
+      "displayName": "字数统计增强",
+      "version": "0.1.0",
+      "publisher": "towriter",
+      "description": "状态栏字数统计与写作面板",
+      "repo": "YOUR_USERNAME/YOUR_PLUGIN_REPO",
+      "path": "plugins/word-count-pro",
+      "branch": "main"
+    }
+  ]
+}

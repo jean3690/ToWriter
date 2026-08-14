@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 使用说明 / 功能咨询
+    url: https://github.com/anomalyco/opencode/issues
+    about: 通用问题或开发讨论

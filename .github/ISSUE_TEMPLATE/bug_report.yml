@@ -1,0 +1,57 @@
+name: Bug 报告
+description: 报告一个 bug 或异常行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你花时间报告这个问题。请尽量填写以下信息，帮助我们更快定位。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台 / 系统
+      description: 你在哪个平台遇到问题？
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本
+      description: 顶部菜单「设置」里可见的版本号，或 git commit。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 怎样操作能稳定触发这个 bug？
+      placeholder: |
+        1. 打开工作区
+        2. 新建一本书
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你预期会发生什么？
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么？（附上报错文本或截图更佳）
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 截图
+      description: 如有终端输出、崩溃日志或截图，请贴在这里。
